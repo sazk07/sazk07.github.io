@@ -1,4 +1,4 @@
-# CERTIFICATIONS
+## CERTIFICATIONS
 
 - IBM Data Science Professional specialization
 

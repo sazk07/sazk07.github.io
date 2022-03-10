@@ -1,4 +1,4 @@
-# WORK EXPERIENCE
+## WORK EXPERIENCE
 
 ### Senior Analyst - Pakistan Business Council (Jan 2020 - Present)
 
@@ -40,9 +40,9 @@
     
     - > Budgeting exercise for annual TDAP exhibitions.
 
-* Impact in the organization:
+- Impact in the organization:
 
-    * > Invited to Ministry of Commerce for presenting strategy on increasing exports to USA.
+    - > Invited to Ministry of Commerce for presenting strategy on increasing exports to USA.
 
 ### Visiting Lecturer - NED University (Sep 2017 - Mar 2018)
 

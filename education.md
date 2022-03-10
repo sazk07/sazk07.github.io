@@ -1,4 +1,4 @@
-# EDUCATION
+## EDUCATION
 
 - Karachi School of Business & Leadership 2013-2015
 
