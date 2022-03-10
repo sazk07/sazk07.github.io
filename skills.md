@@ -18,7 +18,15 @@
 
 - ### Database
 
-    - > `PostgreSQL`, `mongoDB`
+    - > `PostgreSQL`, `mongoDB`, `MYSQL`
+
+- ### BI Tools
+
+    - > `Tableau`, `PowerBI`
+
+- ### Analytical Skills
+
+    - > `Data Cleaning`, `Data Visualization`, `Hypothesis Testing`, `Exploratory Data Analysis`, `Market Research`, `Forecasing & Volumetric Projection`, `Linear & Logistic Regression`
 
 ---
 
