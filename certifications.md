@@ -30,14 +30,12 @@
 
 ### Links
 
----
 - #### [About me](./index.md)
----
+
 - #### [Work Experience](./work_experience.md)
----
 
 - #### [Projects](./projects.md)
----
+
 - #### [Skills](./skills.md)
----
+
 - #### [Education](./education.md)

@@ -16,23 +16,12 @@
 
 ### Links
 
----
-
 - #### [About me](./index.md)
-
----
 
 - #### [Work Experience](./work_experience.md)
 
----
-
-
 - #### [Projects](./projects.md)
 
----
-
 - #### [Skills](./skills.md)
-
----
 
 - #### [Certifications](./certifications.md)

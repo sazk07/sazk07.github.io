@@ -29,26 +29,27 @@
 ## Coca Cola
 
 > Excel-based distribution model and financial model + market research leading to strategic recommendations to introduce bulk water format to market.
+
 ---
 
 ### Links
 
----
+
 
 - #### [About me](./index.md)
 
----
+
 
 - #### [Work Experience](./work_experience.md)
 
----
+
 
 - #### [Skills](./skills.md)
 
----
+
 
 - #### [Education](./education.md)
 
----
+
 
 - #### [Certifications](./certifications.md)

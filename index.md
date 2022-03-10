@@ -18,20 +18,12 @@ You can find me (and my work) in the following places:
 
 ### Links
 
----
 - #### [Work Experience](./work_experience.md)
-
----
 
 - #### [Projects](./projects.md)
 
----
 - #### [Skills](./skills.md)
 
----
-
 - #### [Education](./education.md)
-
----
 
 - #### [Certifications](./certifications.md)

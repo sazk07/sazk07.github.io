@@ -20,16 +20,17 @@
 
     - > `PostgreSQL`, `mongoDB`
 
+---
+
 ### Links
 
----
 - #### [About me](./index.md)
----
+
 - #### [Work Experience](./work_experience.md)
----
+
 
 - #### [Projects](./projects.md)
----
+
 - #### [Education](./education.md)
----
+
 - #### [Certifications](./certifications.md)
