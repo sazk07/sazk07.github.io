@@ -2,7 +2,7 @@
 
 - ### Programming Languages
 
-    - > `Python`, `Go`, `SQL`
+    - > `Python`, `Go`, `SQL`, `HTML`, `CSS`
 
 - ### Frameworks
 
