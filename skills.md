@@ -1,14 +1,24 @@
 # SKILLS
 
-| Skills |  Description |
-| --- | --- |
-| Programming Languages |  `Python`, `Go`, `SQL` |
-| Frameworks |  `numpy`, `pandas`, `Excel`, `matplotlib`, `seaborn` |
-| Version Control | `GitHub` |
-| OS | `Linux`, `Windows` |
-| Database | `PostgreSQL`, `mongoDB` |
+- Programming Languages
 
+    - > `Python`, `Go`, `SQL`
 
+- Frameworks
+
+    - > `pandas`, `numpy`, `matplotlib`, `seaborn`, `Excel`
+
+- Version Control
+
+    - > `GitHub`
+
+- OS
+
+    - > `Linux`, `Windows`
+
+- Database
+
+    - > `PostgreSQL`, `mongoDB`
 
 ### Links
 

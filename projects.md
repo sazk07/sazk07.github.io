@@ -1,6 +1,6 @@
 # PROJECTS
 
-> Financial models of pharmaceuticals, banks, cement manufacturers, fertilizer manufacturers including UBL financial model for CFA Research Challenge 2015.
+> Financial models of Pharmaceuticals, Cement manufacturers, Fertilizer manufacturers, Banks including UBL financial model for CFA Research Challenge 2015.
 
 ## Creator and inventor of ORNATE
     
@@ -20,7 +20,7 @@
 
 ## Machine Learning Projects
 
-> Constructed [bank defaulter classifier](https://github.com/sazk07/IBM-Data-Science-Bank-Customer-Classifier-Project), [Traffic Accident severity classifier](https://github.com/sazk07/Collision-Severity-Detection-MachineLearning-Project). Both are kept open-sourced for anyone wanting to look at my projects.
+> Constructed [Bank Defaulter Classifier](https://github.com/sazk07/IBM-Data-Science-Bank-Customer-Classifier-Project), [Traffic Accident Severity Classifier](https://github.com/sazk07/Collision-Severity-Detection-MachineLearning-Project). Both are kept open-sourced for anyone wanting to look at my projects.
 
 ## SQL
 
@@ -35,20 +35,20 @@
 
 ---
 
-* #### [About me](./index.md)
+- #### [About me](./index.md)
 
 ---
 
-* #### [Work Experience](./work_experience.md)
+- #### [Work Experience](./work_experience.md)
 
 ---
 
-* #### [Skills](./skills.md)
+- #### [Skills](./skills.md)
 
 ---
 
-* #### [Education](./education.md)
+- #### [Education](./education.md)
 
 ---
 
-* #### [Certifications](./certifications.md)
+- #### [Certifications](./certifications.md)
