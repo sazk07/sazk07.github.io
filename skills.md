@@ -26,7 +26,7 @@
 
 - ### Analytical Skills
 
-    - > `Data Cleaning`, `Data Visualization`, `Hypothesis Testing`, `Exploratory Data Analysis`, `Market Research`, `Forecasing & Volumetric Projection`, `Linear & Logistic Regression`
+    - > `Data Cleaning`, `Data Visualization`, `Hypothesis Testing`, `Exploratory Data Analysis`, `Market Research`, `Forecasting & Volumetric Projection`, `Linear & Logistic Regression`
 
 ---
 
