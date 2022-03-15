@@ -64,7 +64,7 @@
 
     - > Resulted in launch of 3 new programs: Masters in Business Analytics and Undergrad programs.
 
-### Corporate Credit Rist Analyst - Meezan Bank (Sep 2015 - Nov 2016)
+### Corporate Credit Risk Analyst - Meezan Bank (Sep 2015 - Nov 2016)
 
 - Day to Day work:
 
