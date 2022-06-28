@@ -17,11 +17,11 @@ You can find me (and my work) in the following places:
 
 - Linkedin: [@shahan](https://www.linkedin.com/sazk07)
 
-- Tableau: [@shahan](https://public.tableau.com/app/profile/shahan.arshad)
+- Tableau Viz and Dashboards: [@shahan](https://public.tableau.com/app/profile/shahan.arshad)
 
 ---
 
-### Links
+### Section
 
 - #### [Work Experience](./work_experience.md)
 
