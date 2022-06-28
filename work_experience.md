@@ -7,7 +7,8 @@
     - > Economic analysis and report writing. Field work involved visits to manufacturers, surveys, interviews, data collection and integration. Liaison with various government agencies for development of Pakistan's business environment.
 
 - Projects executed successfully:
-- > Successfully won funding from Ministry of Industries and Production for client Engineering Development Board
+
+    - > Successfully won funding from Ministry of Industries and Production for client Engineering Development Board
 
     - > Use of machine learning in finding impact of Brexit in Pakistan-UK trade.
 
