@@ -2,9 +2,9 @@
 
 > Financial models of Pharmaceuticals, Cement manufacturers, Fertilizer manufacturers, Banks including UBL financial model for CFA Research Challenge 2015.
 
-### Creator and Inventor of ORNATE
+### ORNATE Keyboard Layout
     
-> An optimized keyboard layout for easier and faster typing, made with scientific metrics including overall Finger Distance Travel, Same Finger Bigram Utilization percentage and Total Effort scores. Available on [my GitHub](https://github.com/sazk07/ORNATE-Optimized-Keyboard-Layout-Project) repo.
+> Invented an optimized keyboard layout for easier and faster typing, made with scientific metrics including overall Finger Distance Travel, Same Finger Bigram Utilization percentage and Total Effort scores. Available on [my GitHub](https://github.com/sazk07/ORNATE-Optimized-Keyboard-Layout-Project) repo.
 
 ### Visualization and Dashboards
 
