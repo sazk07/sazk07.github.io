@@ -10,11 +10,11 @@ You can find me (and my work) in the following places:
 
 - Email: shahan@gmail.com
 
-- [GitHub](https://github.com/sazk07)
+- GitHub: [@shahan](https://github.com/sazk07)
 
-- [Linkedin](https://www.linkedin.com/sazk07)
+- Linkedin: [@shahan](https://www.linkedin.com/sazk07)
 
-- [Tableau Dashboards and Visualizations](https://public.tableau.com/app/profile/shahan.arshad)
+- Tableau Dashboards and Visualizations: [@shahan](https://public.tableau.com/app/profile/shahan.arshad)
 
 ---
 
