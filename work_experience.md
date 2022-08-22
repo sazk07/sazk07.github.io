@@ -14,8 +14,6 @@
 
     - Published reports on Pakistan Surgical Industry & Cutlery Industry.
 
-    - Future of Pakistan Exports under EU GSP scheme.
-
 - Impact in the organization:
 
     - Initiated SQL Database creation and maintenance of 80 million records. 
