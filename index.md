@@ -13,11 +13,11 @@ You can find me (and my work) in the following places:
 
 - Email: shahan@gmail.com
 
-- GitHub: [@shahan](https://github.com/sazk07)
+- GitHub: <a href="https://github.com/sazk07.github.io" target="_blank">@shahan</a>
 
-- Linkedin: [@shahan](https://www.linkedin.com/in/sazk)
+- Linkedin: <a href="https://www.linkedin.com/in/sazk" target="_blank">@shahan</a>
 
-- Tableau Viz and Dashboards: [@shahan](https://public.tableau.com/app/profile/shahan.arshad)
+- Tableau Viz and Dashboards: <a href="https://public.tableau.com/app/profile/shahan.arshad" target="_blank">@shahan</a>
 
 ---
 
