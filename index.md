@@ -13,7 +13,7 @@ You can find me (and my work) in the following places:
 
 - Email: shahan@gmail.com
 
-- GitHub: <a href="https://github.com/sazk07.github.io" target="_blank">@shahan</a>
+- GitHub: <a href="https://github.com/sazk07" target="_blank">@shahan</a>
 
 - Linkedin: <a href="https://www.linkedin.com/in/sazk" target="_blank">@shahan</a>
 
