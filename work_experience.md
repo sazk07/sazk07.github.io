@@ -12,7 +12,7 @@
 
     - > Use of machine learning in finding impact of Brexit in Pakistan-UK trade.
 
-    - > Evaluation of competitiveness of Pakistan Surgical Industry & Cutlery Industry.
+    - > Published reports on Pakistan Surgical Industry & Cutlery Industry.
 
     - > Future of Pakistan Exports under EU GSP scheme.
 
