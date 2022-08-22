@@ -15,7 +15,7 @@ You can find me (and my work) in the following places:
 
 - GitHub: [@shahan](https://github.com/sazk07)
 
-- Linkedin: [@shahan](https://www.linkedin.com/in/sazk07)
+- Linkedin: [@shahan](https://www.linkedin.com/in/sazk)
 
 - Tableau Viz and Dashboards: [@shahan](https://public.tableau.com/app/profile/shahan.arshad)
 
