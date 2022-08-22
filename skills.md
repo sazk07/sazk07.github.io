@@ -2,31 +2,31 @@
 
 - ### Programming Languages
 
-    - > `Python`, `Go`, `SQL`, `HTML`, `CSS`
+    - `Python`, `Go`, `SQL`, `HTML`, `CSS`
 
 - ### Frameworks
 
-    - > `pandas`, `numpy`, `matplotlib`, `seaborn`, `Excel`, `LaTeX`
+    - `pandas`, `numpy`, `matplotlib`, `seaborn`, `Excel`, `LaTeX`
 
 - ### Version Control
 
-    - > `GitHub`
+    - `GitHub`
 
 - ### OS
 
-    - > `Linux`, `Windows`
+    - `Linux`, `Windows`
 
 - ### Database
 
-    - > `PostgreSQL`, `mongoDB`, `MYSQL`
+    - `PostgreSQL`, `mongoDB`, `MYSQL`
 
 - ### BI Tools
 
-    - > `Tableau`, `PowerBI`
+    - `Tableau`, `PowerBI`
 
 - ### Analytical Skills
 
-    - > `Data cleaning`, `Data visualization`, `Hypothesis testing`, `Exploratory data analysis`, `Market research`, `Forecasting & volumetric projection`, `Linear & Logistic regression`
+    - `Data cleaning`, `Data visualization`, `Hypothesis testing`, `Exploratory data analysis`, `Market research`, `Forecasting & volumetric projection`, `Linear & Logistic regression`
 
 ---
 
