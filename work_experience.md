@@ -86,14 +86,14 @@
 
 ---
 
-### Links
+## Section
 
-- #### [About me](./index.md)
+- [About me](./index.md)
 
-- #### [Projects](./projects.md)
+- [Projects](./projects.md)
 
-- #### [Skills](./skills.md)
+- [Skills](./skills.md)
 
-- #### [Education](./education.md)
+- [Education](./education.md)
 
-- #### [Certifications](./certifications.md)
+- [Certifications](./certifications.md)

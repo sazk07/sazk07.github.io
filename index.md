@@ -23,7 +23,7 @@ You can find me (and my work) in the following places:
 
 ---
 
-### Section
+## Section
 
 - [Work Experience](./work_experience.md)
 
