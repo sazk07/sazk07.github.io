@@ -33,4 +33,4 @@ You can find me (and my work) in the following places:
 
 - [Education](./education.md)
 
-- #### [Certifications](./certifications.md)
+- [Certifications](./certifications.md)

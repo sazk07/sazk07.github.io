@@ -38,24 +38,14 @@
 
 ---
 
-### Links
+## Section
 
+- [About me](./index.md)
 
+- [Work Experience](./work_experience.md)
 
-- #### [About me](./index.md)
+- [Skills](./skills.md)
 
+- [Education](./education.md)
 
-
-- #### [Work Experience](./work_experience.md)
-
-
-
-- #### [Skills](./skills.md)
-
-
-
-- #### [Education](./education.md)
-
-
-
-- #### [Certifications](./certifications.md)
+- [Certifications](./certifications.md)
