@@ -6,7 +6,7 @@ I'm **Shahan**. This is my online hosted resume.
 
 ## About me
 
-I am a Data Analyst with a rare skill: I can code. That means not only can I efficiently translate business requirements from client side to software design for engineers, I can also function as a coder or tester within the team.
+I am a Data Analyst with a rare skill: I can code. That means I can  efficiently translate business requirements from client side to software design for engineers as well as function as a coder or tester within the team.
 
 My skill set includes scripting, dashboard creation and deriving insights from data analytics, translating business requirements into solution design for software engineers, and financial modeling and forecasting.
 
