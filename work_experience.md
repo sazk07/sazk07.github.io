@@ -34,9 +34,7 @@
 
     - Led effort to development of Pakistan's first online e-commerce export platform pakistantradeportal.gov.pk at TDAP and Ministry of Commerce.
     
-    - Meeting with former Jade E Services (Daraz) COO for the same.
-    
-    - Created National Export Strategy model, a model of all of Pakistan's exports, for presentation to Razak Dawood, Advisor, Ministry of Commerce. 
+    - Created National Export Strategy model, a model of all of Pakistan's exports, for presentation to Advisor, Ministry of Commerce. 
     
     - Budgeting exercise for annual TDAP exhibitions.
 
