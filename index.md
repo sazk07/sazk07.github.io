@@ -6,9 +6,11 @@ I'm **Shahan**. This is my online hosted resume.
 
 ## About me
 
-I am a Data Analyst and a self-taught programmer. My skill set includes scripting, dashboard creation and deriving insights from data analytics, translating business requirements into solution design for software engineers, and financial modeling and forecasting.
+I am a Data Analyst with a rare skill: I can code. That means not only can I efficiently translate business requirements from client side to software design for engineers, I can also function as a coder or tester within the team.
 
-### Contact
+My skill set includes scripting, dashboard creation and deriving insights from data analytics, translating business requirements into solution design for software engineers, and financial modeling and forecasting.
+
+## Contact
 You can find me (and my work) in the following places:
 
 - Email: shahan@gmail.com
@@ -21,7 +23,7 @@ You can find me (and my work) in the following places:
 
 ---
 
-### Section
+## Section
 
 - #### [Work Experience](./work_experience.md)
 
