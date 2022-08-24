@@ -10,7 +10,7 @@
 
 - ### Version Control
 
-    - `GitHub`
+    - `Git`, `GitHub`
 
 - ### OS
 
