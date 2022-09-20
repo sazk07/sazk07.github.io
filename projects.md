@@ -20,7 +20,7 @@
 
 - Created open-source Python script for bot that sends customized greetings to contacts on special occasions. Available on [my GitHub](https://github.com/sazk07/Whatsapp-Eid-Greeting-Bot) repo.
 
-### Time Series Analysis of WhatsApp Chat Groups
+### Time Series Analysis of WhatsApp Group chats
 
 - Scripted time series analysis of data in WhatsApp group chats.
 
