@@ -2,7 +2,7 @@
 
 - ### Programming Languages
 
-    - `Python`, `Go`, `SQL`, `HTML`, `CSS`
+    - `Python`, `Go`, `SQL`, `HTML`, `CSS`, `JavaScript`
 
 - ### Frameworks
 
@@ -18,7 +18,7 @@
 
 - ### Database
 
-    - `PostgreSQL`, `mongoDB`, `MYSQL`
+    - `PostgreSQL`, `mongoDB`, `MySQL`
 
 - ### BI Tools
 
