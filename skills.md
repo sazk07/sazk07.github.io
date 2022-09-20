@@ -6,7 +6,7 @@
 
 - ### Frameworks
 
-    - `pandas`, `numpy`, `matplotlib`, `seaborn`, `Excel`, `LaTeX`
+    - `FastAPI`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `Excel`, `LaTeX`
 
 - ### Version Control
 
