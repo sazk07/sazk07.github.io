@@ -1,5 +1,7 @@
 ## CERTIFICATIONS
 
+- Responsive Web Design - freeCodeCamp
+
 - IBM Data Science Professional specialization
 
 - IBM Applied Data Science specialization
