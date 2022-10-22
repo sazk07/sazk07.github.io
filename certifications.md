@@ -28,6 +28,10 @@
 
 - SQL Essential Training
 
+- Bootstrap & jQuery
+
+- PHP for Beginners: PHP Crash Course 2022
+
 ---
 
 ## Section
