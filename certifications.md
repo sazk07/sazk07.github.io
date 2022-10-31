@@ -32,6 +32,8 @@
 
 - PHP for Beginners: PHP Crash Course 2022
 
+- Excel VBA: How to write macros like a professional
+
 ---
 
 ## Section
