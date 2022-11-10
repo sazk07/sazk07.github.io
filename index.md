@@ -6,9 +6,9 @@ I'm **Shahan**. This is my online hosted resume.
 
 ## About me
 
-I am a Data Analyst with a rare skill: I can code. That means I can  efficiently translate business requirements from client side to software design for engineers as well as function as a coder or tester within the team.
+I am a Data Analyst and a self-taught full stack developer. My most used tools are often Python and JavaScript for various tasks such as web dev, visualizations and automating tasks for increased productivity.
 
-My skill set includes scripting, dashboard creation and deriving insights from data analytics, translating business requirements into solution design for software engineers, and financial modeling and forecasting.
+My skill set includes scripting, dashboard creation, deriving insights from data analytics, building APIs in Django, FastAPI and NodeJS, building front end with HTML, CSS and JS frameworks.
 
 ## Contact
 You can find me (and my work) in the following places:
