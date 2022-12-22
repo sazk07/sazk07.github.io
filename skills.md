@@ -4,13 +4,18 @@
 
     - Python
     - Go
+    - Php
     - SQL
     - HTML, CSS, JavaScript
     - VBA
 
 - ### Frameworks
 
+    - Bootstrap
+    - jQuery
     - FastAPI
+    - Vue
+    - React
     - pandas
     - numpy
     - scikit-learn
@@ -18,8 +23,6 @@
     - seaborn
     - Excel
     - LaTeX
-    - Bootstrap
-    - jQuery
 
 - ### Version Control
 
@@ -32,7 +35,7 @@
 
 - ### Database
 
-    - PostgreSQL 
+    - PostgreSQL
     - mongoDB
     - MySQL
 
