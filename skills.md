@@ -16,6 +16,7 @@
     - FastAPI
     - Vue
     - React
+    - Svelte
     - pandas
     - numpy
     - scikit-learn
