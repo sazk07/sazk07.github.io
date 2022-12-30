@@ -13,10 +13,10 @@
 
     - Bootstrap
     - jQuery
-    - FastAPI
     - Vue
     - React
     - Svelte
+    - FastAPI
     - pandas
     - numpy
     - scikit-learn
@@ -24,6 +24,7 @@
     - seaborn
     - Excel
     - LaTeX
+    - Elementor
 
 - ### Version Control
 
@@ -44,6 +45,7 @@
 
     - Tableau
     - PowerBI
+    - IBM Cognos
 
 - ### Analytical Skills
 
