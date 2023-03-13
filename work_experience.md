@@ -8,20 +8,20 @@
 
 - Projects executed successfully:
 
-    - Successfully won funding from Ministry of Industries and Production for client Engineering Development Board
+    - Published reports on Pakistan Surgical Industry & Cutlery Industry.
 
     - Use of machine learning in finding impact of Brexit in Pakistan-UK trade.
 
-    - Published reports on Pakistan Surgical Industry & Cutlery Industry.
+    - Assessment of Pakistan's Performance under the EU GSP Plus scheme.
 
 - Impact in the organization:
 
-    - Initiated SQL Database creation and maintenance of 80 million records. 
-    
-    - Started use of JSON as a framework for data and knowledge storage. 
-    
+    - Initiated SQL Database creation and maintenance of 80 million records.
+
+    - Started use of JSON as a framework for data and knowledge storage.
+
     - Began use of BI tools (Tableau, PowerBI) for visualization and dashboard creation.
-    
+
     - Proposal to replace current online PDF blobs with more interactive markdowns in line with modern web design techniques and easier viewing of Pakistan KPIs for C-suite execs.
 
 ### Research Associate - Trade Development Authority of Pakistan (Mar 2018 - Jan 2020)
@@ -33,9 +33,9 @@
 - Projects executed successfully:
 
     - Led effort to development of Pakistan's first online e-commerce export platform pakistantradeportal.gov.pk at TDAP and Ministry of Commerce.
-    
-    - Created National Export Strategy model, a model of all of Pakistan's exports, for presentation to Advisor, Ministry of Commerce. 
-    
+
+    - Created National Export Strategy model, a model of all of Pakistan's exports, for presentation to Advisor, Ministry of Commerce.
+
     - Budgeting exercise for annual TDAP exhibitions.
 
 - Impact in the organization:
@@ -55,7 +55,7 @@
 - Projects executed successfully:
 
     - Financial modeling and budgeting for strategic planning.
-    
+
     - Helped the University launch new undergrad programs.
 
 - Impact in the organization:
