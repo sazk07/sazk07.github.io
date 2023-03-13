@@ -12,7 +12,7 @@
 
     - Use of machine learning in finding impact of Brexit in Pakistan-UK trade.
 
-    - Assessment of Pakistan's Performance under the EU GSP Plus scheme.
+    - Assessment of Pakistan's performance under the EU GSP Plus scheme.
 
 - Impact in the organization:
 
