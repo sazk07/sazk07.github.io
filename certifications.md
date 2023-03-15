@@ -1,5 +1,9 @@
 ## CERTIFICATIONS
 
+- Front End Development Libraries - freeCodeCamp
+
+- JavaScript Algorithms and Data Structures - freeCodeCamp
+
 - Responsive Web Design - freeCodeCamp
 
 - IBM Data Science Professional specialization
