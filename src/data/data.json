@@ -1,0 +1,371 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "link": "https://github.com/sazk07/ORNATE-Optimized-Keyboard-Layout-Project",
+      "projectName": "ORNATE Keyboard Layout",
+      "description": "Invented an optimized keyboard layout for easier and faster typing, made with scientific metrics including overall Finger Distance Travel, Same Finger Bigram Utilization percentage and Total Effort scores."
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/sazk07/WhatsApp-Eid-Greeting-Bot",
+      "projectName": "WhatsApp Bot",
+      "description": "Created open-source Python script for bot that sends customized greetings to contacts on special occasions."
+    },
+    {
+      "id": 3,
+      "link": "https://public.tableau.com/app/profile/shahan.arshad",
+      "projectName": "Visualizations and Dashboards",
+      "description": "Created viz and dashboards in Tableau, PowerBI, Matplotlib, Seaborn for presentation to businesses and government."
+    },
+    {
+      "id": 4,
+      "projectName": "Financial models",
+      "description": "Financial models of Pharmaceuticals, Cement manufacturers, Fertilizer manufacturers, Banks including UBL financial model for CFA Research Challenge 2015."
+    },
+    {
+      "id": 5,
+      "projectName": "National Exports Strategy",
+      "description": "Built Pakistan Trade model for presentation to Ministry of Commerce."
+    },
+    {
+      "id": 6,
+      "link": "https://github.com/sazk07/WhatsApp-Group-Chat-Data-Analysis",
+      "projectName": "Time Series Analysis of WhatsApp Group chats",
+      "description": "Scripted time series analysis of data in WhatsApp group chats."
+    },
+    {
+      "id": 7,
+      "link": "https://github.com/sazk07/IBM-Data-Science-Bank-Customer-Classifier-Project",
+      "projectName": "Machine Learning Project: Bank Defaulter Classifier",
+      "description": "Constructed Bank Defaulter Classifier"
+    },
+    {
+      "id": 10,
+      "link": "https://github.com/sazk07/Collision-Severity-Detection-MachineLearning-Project",
+      "projectName": "Machine Learning Project: Traffic Severity Predictor",
+      "description": "Constructed Traffic Accident Severity Classifier."
+    },
+    {
+      "id": 8,
+      "projectName": "SQL",
+      "description": "Designed database of Pakistan’s exports and imports in PostgreSQL."
+    },
+    {
+      "id": 9,
+      "projectName": "Coca Cola",
+      "description": "Excel-based distribution model and financial model + market research leading to strategic recommendations to introduce bulk water format to market."
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      { "id": 1, "name": "Python" },
+      { "id": 2, "name": "JavaScript" },
+      { "id": 3, "name": "SQL" },
+      { "id": 4, "name": "Go" },
+      { "id": 5, "name": "VBA" }
+    ],
+    "frameworks": [
+      { "id": 1, "name": "React" },
+      { "id": 2, "name": "Vue" },
+      { "id": 3, "name": "Svelte" },
+      { "id": 4, "name": "FastAPI" },
+      { "id": 5, "name": "NodeJS" },
+      { "id": 6, "name": "Bootstrap" },
+      { "id": 7, "name": "TailwindCSS" },
+      { "id": 8, "name": "JQuery" },
+      { "id": 9, "name": "pandas" },
+      { "id": 10, "name": "numPy" },
+      { "id": 11, "name": "scikit-learn" },
+      { "id": 12, "name": "matplotlib" },
+      { "id": 13, "name": "Seaborn" },
+      { "id": 14, "name": "Excel" },
+      { "id": 15, "name": "LaTeX" },
+      { "id": 16, "name": "Elementor" },
+      { "id": 17, "name": "WordPress" }
+    ],
+    "versionControl": [
+      { "id": 1, "name": "Git" },
+      { "id": 2, "name": "GitHub" }
+    ],
+    "os": [
+      { "id": 1, "name": "Linux" },
+      { "id": 2, "name": "Windows" }
+    ],
+    "database": [
+      { "id": 1, "name": "PostgreSQL" },
+      { "id": 2, "name": "MongoDB" },
+      { "id": 3, "name": "MySQL" },
+      { "id": 4, "name": "MariaDB" }
+    ],
+    "biTools": [
+      { "id": 1, "name": "Tableau" },
+      { "id": 2, "name": "PowerBI" },
+      { "id": 3, "name": "Cognos" }
+    ],
+    "analyticalSkills": [
+      { "id": 1, "name": "Data Visualization" },
+      { "id": 2, "name": "Data Analysis" },
+      { "id": 3, "name": "Hypothesis Testing" },
+      { "id": 4, "name": "Forecasting and Volumetric Projection" },
+      { "id": 5, "name": "Linear and Logistic Regression" },
+      { "id": 6, "name": "Market Research" }
+    ]
+  },
+  "workExperience": [
+    {
+      "id": 1,
+      "position": "Senior Analyst",
+      "employer": "Pakistan Business Council",
+      "dateFrom": "Jan 2020",
+      "dateTo": "Nov 2022",
+      "jobDescription": "Economic analysis and report writing. Field work involved visits to manufacturers, surveys, interviews, data collection and integration. Liaison with various government agencies for development of Pakistan’s business environment.",
+      "projectsExecuted": [
+        {
+          "id": 1,
+          "name": "Published reports on Pakistan Surgical Industry & Cutlery Industry."
+        },
+        {
+          "id": 2,
+          "name": "Use of machine learning in finding impact of Brexit in Pakistan-UK trade."
+        },
+        {
+          "id": 3,
+          "name": "Assessment of Pakistan’s performance under the EU GSP Plus scheme."
+        }
+      ],
+      "impact": [
+        {
+          "id": 1,
+          "name": "Initiated SQL Database creation and maintenance of 80 million records."
+        },
+        {
+          "id": 2,
+          "name": "Began use of BI tools (Tableau, PowerBI) for visualization and dashboard creation."
+        },
+        {
+          "id": 3,
+          "name": "Started use of JSON as a framework for data and knowledge storage."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Research Associate",
+      "employer": "Trade Development Authority of Pakistan",
+      "dateFrom": "Mar 2018",
+      "dateTo": "Jan 2020",
+      "jobDescription": "Economic analysis of Pakistan and other countries for policy recommendations on promoting and boosting exports.",
+      "projectsExecuted": [
+        {
+          "id": 1,
+          "name": "Led effort to development of Pakistan’s first online e-commerce export platform pakistantradeportal.gov.pk at TDAP and Ministry of Commerce."
+        },
+        {
+          "id": 2,
+          "name": "Created National Export Strategy model, a model of all of Pakistan’s exports, for presentation to Advisor, Ministry of Commerce."
+        },
+        { "id": 3, "name": "Budgeting exercise for annual TDAP exhibitions." }
+      ],
+      "impact": [
+        {
+          "id": 1,
+          "name": "Invited to Ministry of Commerce for presenting strategy on increasing exports to USA."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Visiting Lecturer",
+      "employer": "NED University",
+      "dateFrom": "Sep 2017",
+      "dateTo": "Mar 2018",
+      "jobDescription": "Taught cost accounting and business finance to students.",
+      "projectsExecuted": [],
+      "impact": []
+    },
+    {
+      "id": 4,
+      "position": "Business Analyst & RA",
+      "employer": "Karachi School of Business & Leadership",
+      "dateFrom": "Nov 2016",
+      "dateTo": "Mar 2018",
+      "jobDescription": "Financial modeling. Revenue channels analysis for optimization.",
+      "projectsExecuted": [
+        {
+          "id": 1,
+          "name": "Financial modeling and budgeting for strategic planning."
+        },
+        {
+          "id": 2,
+          "name": "Helped the University launch new undergrad programs."
+        }
+      ],
+      "impact": [
+        {
+          "id": 1,
+          "name": "Resulted in launch of 3 new programs: Masters in Business Analytics and Undergrad programs."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "position": "Corporate Credit Risk Analyst",
+      "employer": "Meezan Bank",
+      "dateFrom": "Sep 2015",
+      "dateTo": "Nov 2016",
+      "jobDescription": "Risk analyses of new and existing corporate clients.",
+      "projectsExecuted": [
+        { "id": 1, "name": "Analysis of Pakistan sugar industry" },
+        {
+          "id": 2,
+          "name": "Analysis of Pakistan Banks industry-wide exposures"
+        }
+      ],
+      "impact":[]
+    },
+    {
+      "id": 6,
+      "position": "Accounts Manager",
+      "employer": "Mareet Pte Ltd Singapore",
+      "dateFrom": "Oct 2010",
+      "dateTo": "Dec 2012",
+      "jobDescription": "Bookkeeping, preparing CVP analysis for every charter, coordinating vessel fixtures and documentation compliance between different parties, demurrage calculations, preparing bank instructions.",
+      "projectsExecuted": [
+        {
+          "id": 1,
+          "name": "Costing for introduction of imported French bakery items in Singapore."
+        }
+      ],
+      "impact": [
+        {
+          "id": 1,
+          "name": "Led efforts to implement MYOB accounting system; resulted in increased efficiency and time saving in the bookkeeping process."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degreeName": "MBA",
+      "school": "Karachi School of Business & Leadership (KSBL)",
+      "honors": ["3.9/4 GPA", "Bronze medalist", "Dean's Honor List Award"]
+    },
+    {
+      "id": 2,
+      "degreeName": "BA (Hons) Accounting",
+      "school": "University of Bedfordshire UK",
+      "honors": ""
+    },
+    {
+      "id": 3,
+      "degreeName": "CFA Level 2 candidate",
+      "school": "CFA Society",
+      "honors": ""
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "link": "https://www.freecodecamp.org/certification/sazk07/front-end-development-libraries",
+      "certName": "Front End Development Libraries",
+      "issuer": "freeCodeCamp"
+    },
+    {
+      "id": 2,
+      "link": "https://www.freecodecamp.org/certification/sazk07/javascript-algorithms-and-data-structures",
+      "certName": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp"
+    },
+    {
+      "id": 3,
+      "link": "https://www.freecodecamp.org/certification/sazk07/responsive-web-design",
+      "certName": "Responsive Web Design",
+      "issuer": "freeCodeCamp"
+    },
+    {
+      "id": 4,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/6XEF5NMCMVX9",
+      "certName": "IBM Data Science specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 6,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/S797Z4YHQ8UA",
+      "certName": "IBM Data Analyst specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 7,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/2282FWSYE3N8",
+      "certName": "Python 3 Programming specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 8,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/RRBYBTSWVMKF",
+      "certName": "Data Visualization with Tableau specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 9,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/6M8YB9ZNGAKW",
+      "certName": "IBM Data Science Fundamentals with Python and SQL specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 10,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/6S627KYMUH4X",
+      "certName": "Programming with Google Go specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 11,
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/XDGT8VULQH4Q",
+      "certName": "PostgreSQL for Everybody specialization",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 12,
+      "link": "https://www.coursera.org/account/accomplishments/certificate/HDAMWRSU9NTZ",
+      "certName": "Object Oriented Design",
+      "issuer": "Coursera"
+    },
+    {
+      "id": 13,
+      "link": "https://www.linkedin.com/learning/certificates/a011c2874353a752e8f8dc7966719e3f01a860d2ff9d1aba8ce3640e8c83ce59?trk=backfilled_certificate",
+      "certName": "Advanced Python Working with Databases",
+      "issuer": "Linkedin"
+    },
+    {
+      "certName": "Learning Data Analytics",
+      "link": "https://www.linkedin.com/learning/certificates/0e98c8f149b8ee8f68046f2a75ee1f4846f385a5ef78bb006f4d65d77080ce5a?trk=backfilled_certificate",
+      "id": 14,
+      "issuer": "Linkedin"
+    },
+    {
+      "certName": "SQL Essential Training",
+      "link": "https://www.linkedin.com/learning/certificates/df6414689ddf69f7216c09edbd2a783d1a8dd09914af7d43c87b8529fcf20b75?trk=backfilled_certificate",
+      "id": 18,
+      "issuer": "Linkedin"
+    },
+    {
+      "id": 15,
+      "link": "https://www.udemy.com/certificate/UC-d4a9df1e-db74-4533-9385-7d95d406e48c/",
+      "certName": "Web Development Masterclass",
+      "issuer": "Udemy"
+    },
+    {
+      "id": 16,
+      "link": "https://www.udemy.com/certificate/UC-ca9cbd93-d09f-4b7a-8e06-110c66cf2d5f/",
+      "certName": "Excel VBA: How to write macros like a professional",
+      "issuer": "Udemy"
+    },
+    {
+      "id": 17,
+      "certName": "Advance costing & budgeting with PowerBI",
+      "issuer": "Kaizen Analytic"
+    }
+  ]
+}
