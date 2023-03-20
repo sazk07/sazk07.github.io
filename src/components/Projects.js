@@ -16,7 +16,7 @@ export default function Projects(props) {
             </a> }
         </div>
         <div className="mx-auto flex max-w-prose flex-col gap-2">
-          <p className="tracking-wide leading-relaxed text-lg">{item.description}</p>
+          <p className="tracking-wide leading-relaxed text-lg text-left">{item.description}</p>
         </div>
       </div>
     </div>

@@ -12,13 +12,12 @@ function Education(props) {
           </span>
         </h3>
         <div className="mx-auto flex max-w-prose flex-col gap-2">
-          {item.honors !== "" ?
-            <ul className="border-l-4 border-blue-600 dark:border-blue-400 ml-2 py-2 my-2 tracking-wide text-lg">
-            <li key={item.honors[0]} className="list-disc ml-6">{item.honors[0]}</li>
-            <li className="list-disc ml-6" key={item.honors[1]}>{item.honors[1]}</li>
-            <li className="list-disc ml-6" key={item.honors[2]}>{item.honors[2]}</li>
+          {item.honors &&
+            <ul className="border-l-4 border-blue-600 dark:border-blue-400 ml-2 py-2 my-2 tracking-wide ">
+            <li key={item.honors[0]} className=" text-left list-disc ml-6">{item.honors[0]}</li>
+            <li className="list-disc ml-6 text-left" key={item.honors[1]}>{item.honors[1]}</li>
+            <li className="list-disc ml-6 text-left" key={item.honors[2]}>{item.honors[2]}</li>
             </ul>
-            : ""
           }
         </div>
       </div>

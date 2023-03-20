@@ -15,11 +15,10 @@ export default function WorkExperience(props) {
           <p>{item.dateFrom} - {item.dateTo}</p>
         </div>
         <div className="mx-auto flex max-w-prose flex-col gap-2">
-          <p className="tracking-wide leading-relaxed text-lg">
+          <p className="tracking-wide leading-relaxed text-lg text-left">
             {item.jobDescription}
           </p>
-          {item.projectsExecuted.length !== 0 ?
-            <>
+          {item.projectsExecuted.length !==0 ? <>
               <p className="tracking-wide leading-relaxed text-lg">Projects Executed:</p>
               <ul className="border-l-4 border-blue-600 dark:border-blue-400 ml-2 py-2 my-2">
                 {item.projectsExecuted.map(subitem => (
@@ -29,9 +28,9 @@ export default function WorkExperience(props) {
                 ))}
               </ul>
             </>
-            : null
+            : ""
           }
-          {item.impact.length !== 0 ?
+          {item.impact.length !==0 ?
             <>
               <p className="tracking-wide leading-relaxed text-lg">Impact</p>
               <ul className="border-l-4 border-blue-600 dark:border-blue-400 ml-2 py-2 my-2">
@@ -42,14 +41,14 @@ export default function WorkExperience(props) {
                 ))}
               </ul>
             </>
-            : null
+            : ""
           }
         </div>
       </div>
     </div>
   ))
   return (
-    <section id="workExperience" className="relative flex flex-col items-center justify-center gap-12 bg-gray-100 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id="workExperience" className="relative flex flex-col items-center justify-center gap-12 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <div className="flex flex-col items-center justify-center gap-12">
         <span className="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight sm:text-4xl">Work Experience</span>
         {listWorkExperience}

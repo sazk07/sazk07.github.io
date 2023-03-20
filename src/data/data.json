@@ -74,10 +74,10 @@
       { "id": 6, "name": "Bootstrap" },
       { "id": 7, "name": "TailwindCSS" },
       { "id": 8, "name": "JQuery" },
-      { "id": 9, "name": "pandas" },
-      { "id": 10, "name": "numPy" },
-      { "id": 11, "name": "scikit-learn" },
-      { "id": 12, "name": "matplotlib" },
+      { "id": 9, "name": "Pandas" },
+      { "id": 10, "name": "NumPy" },
+      { "id": 11, "name": "Scikit-learn" },
+      { "id": 12, "name": "Matplotlib" },
       { "id": 13, "name": "Seaborn" },
       { "id": 14, "name": "Excel" },
       { "id": 15, "name": "LaTeX" },
@@ -260,7 +260,7 @@
     },
     {
       "id": 3,
-      "degreeName": "CFA Level 2 candidate",
+      "degreeName": "CFA Level 2 Candidate",
       "school": "CFA Society",
       "honors": ""
     }

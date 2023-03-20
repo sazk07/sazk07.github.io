@@ -1,6 +1,6 @@
 [
     {"id":2, "name":"#skills", "render": "Skills"},
-    {"id":3, "name":"#projects", "render": "Project"},
+    {"id":3, "name":"#projects", "render": "Projects"},
     {"id":4, "name":"#workExperience", "render": "Work Experience"},
     {"id":5, "name":"#education", "render": "Education"},
     {"id":6, "name":"#certifications", "render": "Certifications"}
