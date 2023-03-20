@@ -27,7 +27,7 @@ function Footer() {
           </a>
         </div>
         <p className="mt-8 text-center text-base text-opacity-60">
-          © 2023 Shahan Arshad Khan. All rights reserved.
+          © {new Date().getFullYear()} Shahan Arshad Khan. All rights reserved.
         </p>
       </div>
     </footer>

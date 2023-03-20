@@ -11,10 +11,9 @@ import Nav from './components/Nav.js'
 import navs from './data/ids.json'
 
 function App() {
-  const ids = navs
   return (
     <div className="App">
-      <Nav propsIds={ids} />
+      <Nav propsIds={navs} />
       <Hero />
       <Skills propsSkills={data.skills}  />
       <Projects propsProjects={data.projects} />
