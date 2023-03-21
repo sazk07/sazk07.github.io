@@ -1,4 +1,5 @@
 export default function WorkExperience(props) {
+  const sectionId = props.propsId
   const workExperience = props.propsWorkExp
   const listWorkExperience = workExperience.map(item => (
     <div className="relative overflow-hidden" key={item.id}>
@@ -48,7 +49,7 @@ export default function WorkExperience(props) {
     </div>
   ))
   return (
-    <section id="workExperience" className="relative flex flex-col items-center justify-center gap-12 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id={sectionId.slice(1)} className="relative flex flex-col items-center justify-center gap-12 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <div className="flex flex-col items-center justify-center gap-12">
         <span className="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight sm:text-4xl">Work Experience</span>
         {listWorkExperience}

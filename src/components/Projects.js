@@ -2,6 +2,7 @@ import { faFolderOpen } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Projects(props) {
+  const sectionId = props.propsId
   const projects = props.propsProjects
   const listProjects = projects.map(item => (
     <div key={item.id} className="relative overflow-hidden">
@@ -22,7 +23,7 @@ export default function Projects(props) {
     </div>
   ))
   return (
-    <section id="projects" className="relative flex flex-col items-center justify-center gap-12 min-h-[50vh] py-16 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id={sectionId.slice(1)} className="relative flex flex-col items-center justify-center gap-12 min-h-[50vh] py-16 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <div className="flex flex-col items-center justify-center gap-12">
         {listProjects}
       </div>

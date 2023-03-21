@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       <Nav propsIds={navs} />
       <Hero />
-      <Skills propsSkills={data.skills}  />
-      <Projects propsProjects={data.projects} />
-      <WorkExperience propsWorkExp={data.workExperience} />
-      <Education propsEdu={data.education} />
-      <Certifications propsCert={data.certifications} />
+      <Skills propsSkills={data.skills} propsId={navs[0].name}  />
+      <Projects propsProjects={data.projects} propsId={navs[1].name} />
+      <WorkExperience propsWorkExp={data.workExperience} propsId={navs[2].name} />
+      <Education propsEdu={data.education} propsId={navs[3].name} />
+      <Certifications propsCert={data.certifications} propsId={navs[4].name} />
       <Footer />
     </div>
   );

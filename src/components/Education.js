@@ -1,4 +1,5 @@
 function Education(props) {
+  const sectionId = props.propsId
   const propsEdu = props.propsEdu
   const listEdu = propsEdu.map((item) => (
     <div className="relative overflow-hidden" key={item.id}>
@@ -24,7 +25,7 @@ function Education(props) {
     </div>
   ))
   return (
-    <section id="education" className="relative flex flex-col items-center gap-12 min-h-[50vh] py-16 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id={sectionId.slice(1)} className="relative flex flex-col items-center gap-12 min-h-[50vh] py-16 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <div className="flex flex-col items-center justify-center gap-12">
         <span className="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight sm:text-4xl">Education</span>
         {listEdu}

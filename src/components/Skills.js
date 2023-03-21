@@ -1,4 +1,5 @@
 export default function Skills(props) {
+  const sectionId = props.propsId
   const skills = props.propsSkills
   const programmingLanguagesArray = skills.programmingLanguages.map(item => <li key={item.id} className="flex flex-col items-center justify-center gap-4 hover:scale-110 sm:flex-row col-span-1 md:col-span-2 transition-transform duration-700">{item.name}</li>)
   const frameworksArray = skills.frameworks.map(item => <li key={item.id} className="flex flex-col items-center justify-center gap-4 hover:scale-110 sm:flex-row col-span-1 md:col-span-2 transition-transform duration-700">{item.name}</li>)
@@ -8,7 +9,7 @@ export default function Skills(props) {
   const biToolsArray = skills.biTools.map(item => <li key={item.id} className="flex flex-col items-center justify-center gap-4 hover:scale-110 sm:flex-row col-span-1 md:col-span-2 transition-transform duration-700" >{item.name}</li>)
   const analyticalSkillsArray = skills.analyticalSkills.map(item => <li key={item.id} className="flex flex-col items-center justify-center gap-4 hover:scale-110 sm:flex-row col-span-1 md:col-span-2 transition-transform duration-700" >{item.name}</li>)
   return (
-    <section id="skills" className="relative flex flex-col items-center justify-center gap-12 min-h-[50vh] py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id={sectionId.slice(1)} className="relative flex flex-col items-center justify-center gap-12 min-h-[50vh] py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
       <div className="mx-auto flex max-w-screen-sm flex-col gap-8 px-4 py-8">
         <h2 className="mx-auto max-w-prose">
           <span className="block text-center text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-400">Most Developed</span>

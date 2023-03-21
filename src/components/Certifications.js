@@ -1,4 +1,5 @@
 function Certifications(props) {
+  const sectionId = props.propsId
   const propsCert = props.propsCert
   const listCert = propsCert.map((item) => (
     <div key={item.id} className="rounded-tl-lg rounded-tr-lg sm:rounded-tr-none relative p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
@@ -15,7 +16,7 @@ function Certifications(props) {
   )
   )
   return (
-    <section id="certifications" className="md:px-8 lg:px-12 relative flex flex-col items-center min-h-[50vh] justify-center gap-12 border-gray-100 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+    <section id={sectionId.slice(1)} className="md:px-8 lg:px-12 relative flex flex-col items-center min-h-[50vh] justify-center gap-12 border-gray-100 py-16 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
     <h2 className="mx-auto max-w-prose">
       <span className="mt-2 block text-center text-3xl font-extrabold leading-8 tracking-tight sm:text-4xl">Certifications</span>
     </h2>
