@@ -61,6 +61,7 @@
     "programmingLanguages": [
       { "id": 1, "name": "Python" },
       { "id": 2, "name": "JavaScript" },
+      { "id": 6, "name": "TypeScript" },
       { "id": 3, "name": "SQL" },
       { "id": 4, "name": "Go" },
       { "id": 5, "name": "VBA" }
