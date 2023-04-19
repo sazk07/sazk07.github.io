@@ -75,6 +75,7 @@
       { "id": 6, "name": "Bootstrap" },
       { "id": 7, "name": "TailwindCSS" },
       { "id": 8, "name": "JQuery" },
+      { "id": 18, "name": "D3.js" },
       { "id": 9, "name": "Pandas" },
       { "id": 10, "name": "NumPy" },
       { "id": 11, "name": "Scikit-learn" },
@@ -267,6 +268,12 @@
     }
   ],
   "certifications": [
+    {
+      "id": 18,
+      "link": "https://www.freecodecamp.org/certification/sazk07/data-visualization",
+      "certName": "Data Visualization",
+      "issuer": "freeCodeCamp"
+    },
     {
       "id": 1,
       "link": "https://www.freecodecamp.org/certification/sazk07/front-end-development-libraries",
