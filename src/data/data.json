@@ -275,6 +275,12 @@
       "issuer": "freeCodeCamp"
     },
     {
+      "id": 19,
+      "link": "https://www.freecodecamp.org/certification/sazk07/back-end-development-and-apis",
+      "certName": "Back End Development and APIs Certification",
+      "issuer": "freeCodeCamp"
+    },
+    {
       "id": 1,
       "link": "https://www.freecodecamp.org/certification/sazk07/front-end-development-libraries",
       "certName": "Front End Development Libraries",
