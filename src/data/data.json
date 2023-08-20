@@ -287,6 +287,12 @@
       "issuer": "freeCodeCamp"
     },
     {
+      "id": 20,
+      "link":"https://www.freecodecamp.org/certification/sazk07/quality-assurance-v7",
+      "certName": "Quality Assurance",
+      "issuer": "freeCodeCamp"
+    },
+    {
       "id": 2,
       "link": "https://www.freecodecamp.org/certification/sazk07/javascript-algorithms-and-data-structures",
       "certName": "JavaScript Algorithms and Data Structures",
