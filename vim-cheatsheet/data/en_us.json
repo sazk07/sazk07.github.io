@@ -1,0 +1,1107 @@
+{
+  "title": "English",
+  "lang": "en_us",
+  "lang_tag": "en",
+  "global": {
+    "htmlId": "globals",
+    "title": "Global",
+    "commands": [
+      {
+        "keyword": ":h[elp] keyword",
+        "description": "open help for keyword"
+      },
+      {
+        "keyword": ":sav[eas] file",
+        "description": "save file as"
+      },
+      {
+        "keyword": ":clo[se]",
+        "description": "close current pane"
+      },
+      {
+        "keyword": ":ter[minal]",
+        "description": "open a terminal window"
+      },
+      {
+        "keyword": "K",
+        "description": "open man page for word under the cursor"
+      }
+    ],
+    "tip": "Run <kbd>vimtutor</kbd> in a terminal to learn the first Vim commands."
+  },
+  "cursorMovement": {
+    "htmlId": "cursor-movement",
+    "title": "Cursor movement",
+    "commands": [
+      {
+        "keyword": "h",
+        "description": "move cursor left"
+      },
+      {
+        "keyword": "j",
+        "description": "move cursor down"
+      },
+      {
+        "keyword": "k",
+        "description": "move cursor up"
+      },
+      {
+        "keyword": "l",
+        "description": "move cursor right"
+      },
+      {
+        "keyword": "gj",
+        "description": "move cursor down (multi-line text)"
+      },
+      {
+        "keyword": "gk",
+        "description": "move cursor up (multi-line text)"
+      },
+      {
+        "keyword": "H",
+        "description": "move to top of screen"
+      },
+      {
+        "keyword": "M",
+        "description": "move to middle of screen"
+      },
+      {
+        "keyword": "L",
+        "description": "move to bottom of screen"
+      },
+      {
+        "keyword": "w",
+        "description": "jump forwards to the start of a word"
+      },
+      {
+        "keyword": "W",
+        "description": "jump forwards to the start of a word (words can contain punctuation)"
+      },
+      {
+        "keyword": "e",
+        "description": "jump forwards to the end of a word"
+      },
+      {
+        "keyword": "E",
+        "description": "jump forwards to the end of a word (words can contain punctuation)"
+      },
+      {
+        "keyword": "b",
+        "description": "jump backwards to the start of a word"
+      },
+      {
+        "keyword": "B",
+        "description": "jump backwards to the start of a word (words can contain punctuation)"
+      },
+      {
+        "keyword": "ge",
+        "description": "jump backwards to the end of a word"
+      },
+      {
+        "keyword": "gE",
+        "description": "jump backwards to the end of a word (words can contain punctuation)"
+      },
+      {
+        "keyword": "%",
+        "description": "move cursor to matching character (default supported pairs: '()' '{}', '[]' - use <code>:h matchpairs</code> in vim for more info)"
+      },
+      {
+        "keyword": "0",
+        "description": "jump to the start of the line"
+      },
+      {
+        "keyword": "^",
+        "description": "jump to the first non-blank character of the line"
+      },
+      {
+        "keyword": "$",
+        "description": "jump to the end of the line"
+      },
+      {
+        "keyword": "g_",
+        "description": "jump to the last non-blank character of the line"
+      },
+      {
+        "keyword": "gg",
+        "description": "go to the first line of the document"
+      },
+      {
+        "keyword": "G",
+        "description": "go to the last line of the document"
+      },
+      {
+        "keyword": "5gg",
+        "additional_keyword2": "5G",
+        "description": "go to line 5"
+      },
+      {
+        "keyword": "gd",
+        "description": "move to local declaration"
+      },
+      {
+        "keyword": "gD",
+        "description": "move to global declaration"
+      },
+      {
+        "keyword": "fx",
+        "description": "jump to next occurrence of character x"
+      },
+      {
+        "keyword": "tx",
+        "description": "jump to before next occurrence of character x"
+      },
+      {
+        "keyword": "Fx",
+        "description": "jump to the previous occurrence of character x"
+      },
+      {
+        "keyword": "Tx",
+        "description": "jump to after previous occurrence of character x"
+      },
+      {
+        "keyword": ";",
+        "description": "repeat previous f t, F or T movement"
+      },
+      {
+        "keyword": ",",
+        "description": "repeat previous f t, F or T movement, backwards"
+      },
+      {
+        "keyword": "}",
+        "description": "jump to next paragraph (or function/block when editing code)"
+      },
+      {
+        "keyword": "{",
+        "description": "jump to previous paragraph (or function/block when editing code)"
+      },
+      {
+        "keyword": "zz",
+        "description": "center cursor on screen"
+      },
+      {
+        "keyword": "zt",
+        "description": "position cursor on top of the screen"
+      },
+      {
+        "keyword": "zb",
+        "description": "position cursor on bottom of the screen"
+      },
+      {
+        "keyword": "<C-e>",
+        "description": "move screen down one line (without moving cursor)"
+      },
+      {
+        "keyword": "<C-y>",
+        "description": "move screen up one line (without moving cursor)"
+      },
+      {
+        "keyword": "<C-b>",
+        "description": "move screen up one page (cursor to last line)"
+      },
+      {
+        "keyword": "<C-f>",
+        "description": "move screen down one page (cursor to first line)"
+      },
+      {
+        "keyword": "<C-u>",
+        "description": "move cursor and screen up 1/2 page"
+      },
+      {
+        "keyword": "<C-d>",
+        "description": "move cursor and screen down 1/2 page"
+      }
+    ],
+    "tip": "Prefix a cursor movement command with a number to repeat it. For example, <kbd>4j</kbd> moves down 4 lines."
+  },
+  "insertMode": {
+    "title": "Insert mode - inserting/appending text",
+    "htmlId": "insert-mode",
+    "commands": [
+      {
+        "keyword": "i",
+        "description": "insert before the cursor"
+      },
+      {
+        "keyword": "I",
+        "description": "insert at the beginning of the line"
+      },
+      {
+        "keyword": "a",
+        "description": "insert (append) after the cursor"
+      },
+      {
+        "keyword": "A",
+        "description": "insert (append) at the end of the line"
+      },
+      {
+        "keyword": "o",
+        "description": "append (open) a new line below the current line"
+      },
+      {
+        "keyword": "O",
+        "description": "append (open) a new line above the current line"
+      },
+      {
+        "keyword": "ea",
+        "description": "insert (append) at the end of the word"
+      },
+      {
+        "keyword": "<C-h>",
+        "description": "delete the character before the cursor during insert mode"
+      },
+      {
+        "keyword": "<C-w>",
+        "description": "delete word before the cursor during insert mode"
+      },
+      {
+        "keyword": "<C->",
+        "description": "add a line break at the cursor position during insert mode"
+      },
+      {
+        "keyword": "<C-t>",
+        "description": "indent (move right) line one shiftwidth during insert mode"
+      },
+      {
+        "keyword": "<C-d>",
+        "description": "de-indent (move left) line one shiftwidth during insert mode"
+      },
+      {
+        "keyword": "<C-n>",
+        "description": "insert (auto-complete) next match before the cursor during insert mode"
+      },
+      {
+        "keyword": "<C-p>",
+        "description": "insert (auto-complete) previous match before the cursor during insert mode"
+      },
+      {
+        "keyword": "<C-rx>",
+        "description": "insert the contents of register x"
+      },
+      {
+        "keyword": "<C-ox>",
+        "description": "Temporarily enter normal mode to issue one normal-mode command x."
+      },
+      {
+        "keyword": "Esc",
+        "additional_keyword2": "<C-c>",
+        "description": "exit insert mode"
+      }
+    ]
+  },
+  "editing": {
+    "title": "Editing",
+    "htmlId": "editing-mode",
+    "commands": [
+      {
+        "keyword": "r",
+        "description": "replace a single character."
+      },
+      {
+        "keyword": "R",
+        "description": "replace more than one character until <kbd>ESC</kbd> is pressed."
+      },
+      {
+        "keyword": "J",
+        "description": "join line below to the current one with one space in between"
+      },
+      {
+        "keyword": "gJ",
+        "description": "join line below to the current one without space in between"
+      },
+      {
+        "keyword": "gwip",
+        "description": "reflow paragraph"
+      },
+      {
+        "keyword": "g~",
+        "description": "switch case up to motion"
+      },
+      {
+        "keyword": "gu",
+        "description": "change to lowercase up to motion"
+      },
+      {
+        "keyword": "gU",
+        "description": "change to uppercase up to motion"
+      },
+      {
+        "keyword": "cc",
+        "description": "change (replace) entire line"
+      },
+      {
+        "keyword": "c$",
+        "description": "change (replace) to the end of the line"
+      },
+      {
+        "keyword": "ciw",
+        "description": "change (replace) entire word"
+      },
+      {
+        "keyword": "cw",
+        "description": "change (replace) to the end of the word"
+      },
+      {
+        "keyword": "s",
+        "description": "delete character and substitute text (same as cl)"
+      },
+      {
+        "keyword": "S",
+        "description": "delete line and substitute text (same as cc)"
+      },
+      {
+        "keyword": "xp",
+        "description": "transpose two letters (delete and paste)"
+      },
+      {
+        "keyword": "u",
+        "description": "undo"
+      },
+      {
+        "keyword": "U",
+        "description": "restore (undo) last changed line"
+      },
+      {
+        "keyword": "<C-r>",
+        "description": "redo"
+      },
+      {
+        "keyword": ".",
+        "description": "repeat last command"
+      }
+    ]
+  },
+  "markingText": {
+    "title": "Marking text (visual mode)",
+    "htmlId": "marking-text",
+    "commands": [
+      {
+        "keyword": "v",
+        "description": "start visual mode mark lines, then do a command (like y-yank)"
+      },
+      {
+        "keyword": "V",
+        "description": "start linewise visual mode"
+      },
+      {
+        "keyword": "o",
+        "description": "move to other end of marked area"
+      },
+      {
+        "keyword": "<C-v>",
+        "description": "start visual block mode"
+      },
+      {
+        "keyword": "O",
+        "description": "move to other corner of block"
+      },
+      {
+        "keyword": "aw",
+        "description": "mark a word"
+      },
+      {
+        "keyword": "ab",
+        "description": "a block with ()"
+      },
+      {
+        "keyword": "aB",
+        "description": "a block with {}"
+      },
+      {
+        "keyword": "at",
+        "description": "a block with <> tags"
+      },
+      {
+        "keyword": "ib",
+        "description": "inner block with ()"
+      },
+      {
+        "keyword": "iB",
+        "description": "inner block with {}"
+      },
+      {
+        "keyword": "it",
+        "description": "inner block with <> tags"
+      },
+      {
+        "keyword": "Esc",
+        "description": "exit visual mode"
+      }
+    ],
+    "tip": "Instead of <kbd>b</kbd> or <kbd>B</kbd> one can also use <kbd>(</kbd> or <kbd>{</kbd> respectively."
+  },
+  "visualCommands": {
+    "title": "Visual commands",
+    "htmlId": "visual-commands",
+    "commands": [
+      {
+        "keyword": ">",
+        "description": "shift text right"
+      },
+      {
+        "keyword": "<",
+        "description": "shift text left"
+      },
+      {
+        "keyword": "y",
+        "description": "yank (copy) marked text"
+      },
+      {
+        "keyword": "d",
+        "description": "delete marked text"
+      },
+      {
+        "keyword": "~",
+        "description": "switch case"
+      },
+      {
+        "keyword": "u",
+        "description": "change marked text to lowercase"
+      },
+      {
+        "keyword": "U",
+        "description": "change marked text to uppercase"
+      }
+    ]
+  },
+  "registers": {
+    "title": "Registers",
+    "htmlId": "registers",
+    "commands": [
+      {
+        "keyword": ":reg[isters]",
+        "description": "show registers content"
+      },
+      {
+        "keyword": "\"xy",
+        "description": "yank into register x"
+      },
+      {
+        "keyword": "\"xp",
+        "description": "paste contents of register x"
+      },
+      {
+        "keyword": "\"+y",
+        "description": "yank into the system clipboard register"
+      },
+      {
+        "keyword": "\"+p",
+        "description": "paste from the system clipboard register"
+      }
+    ],
+    "tip": "Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim."
+  },
+  "specialRegisters": {
+    "title": "Special registers",
+    "htmlId": "special-registers",
+    "commands": [
+      {
+        "keyword": "0",
+        "description": "last yank"
+      },
+      {
+        "keyword": "\"",
+        "description": "unnamed register last delete or yank"
+      },
+      {
+        "keyword": "%",
+        "description": "current file name"
+      },
+      {
+        "keyword": "#",
+        "description": "alternate file name"
+      },
+      {
+        "keyword": "*",
+        "description": "clipboard contents (X11 primary)"
+      },
+      {
+        "keyword": "+",
+        "description": "clipboard contents (X11 clipboard)"
+      },
+      {
+        "keyword": "/",
+        "description": "last search pattern"
+      },
+      {
+        "keyword": ":",
+        "description": "last command-line"
+      },
+      {
+        "keyword": ".",
+        "description": "last inserted text"
+      },
+      {
+        "keyword": "-",
+        "description": "last small (less than a line) delete"
+      },
+      {
+        "keyword": "=",
+        "description": "expression register"
+      },
+      {
+        "keyword": "_",
+        "description": "black hole register"
+      }
+    ]
+  },
+  "marks": {
+    "title": "Marks and positions",
+    "htmlId": "marks",
+    "commands": [
+      {
+        "keyword": ":marks",
+        "description": "list of marks"
+      },
+      {
+        "keyword": "ma",
+        "description": "set current position for mark A"
+      },
+      {
+        "keyword": "`a",
+        "description": "jump to position of mark A"
+      },
+      {
+        "keyword": "y`a",
+        "description": "yank text to position of mark A"
+      },
+      {
+        "keyword": "`0",
+        "description": "go to the position where Vim was previously exited"
+      },
+      {
+        "keyword": "`\"",
+        "description": "go to the position when last editing this file"
+      },
+      {
+        "keyword": "`.",
+        "description": "go to the position of the last change in this file"
+      },
+      {
+        "keyword": "``",
+        "description": "go to the position before the last jump"
+      },
+      {
+        "keyword": ":ju[mps]",
+        "description": "list of jumps"
+      },
+      {
+        "keyword": "<C-i>",
+        "description": "go to newer position in jump list"
+      },
+      {
+        "keyword": "<C-o>",
+        "description": "go to older position in jump list"
+      },
+      {
+        "keyword": ":changes",
+        "description": "list of changes"
+      },
+      {
+        "keyword": "g,",
+        "description": "go to newer position in change list"
+      },
+      {
+        "keyword": "g;",
+        "description": "go to older position in change list"
+      },
+      {
+        "keyword": "<C-]>",
+        "description": "jump to the tag under cursor"
+      }
+    ],
+    "tip": "To jump to a mark you can either use a backtick (<kbd>`</kbd>) or an apostrophe (<kbd>'</kbd>). Using an apostrophe jumps to the beginning (first non-blank) of the line holding the mark."
+  },
+  "macros": {
+    "title": "Macros",
+    "htmlId": "macros",
+    "commands": [
+      {
+        "keyword": "qa",
+        "description": "record macro a"
+      },
+      {
+        "keyword": "q",
+        "description": "stop recording macro"
+      },
+      {
+        "keyword": "@a",
+        "description": "run macro a"
+      },
+      {
+        "keyword": "@@",
+        "description": "rerun last run macro"
+      }
+    ]
+  },
+  "cutAndPaste": {
+    "title": "Cut and paste",
+    "htmlId": "cut-and-paste",
+    "commands": [
+      {
+        "keyword": "yy",
+        "description": "yank (copy) a line"
+      },
+      {
+        "keyword": "2yy",
+        "description": "yank (copy) 2 lines"
+      },
+      {
+        "keyword": "yw",
+        "description": "yank (copy) the characters of the word from the cursor position to the start of the next word"
+      },
+      {
+        "keyword": "yiw",
+        "description": "yank (copy) word under the cursor"
+      },
+      {
+        "keyword": "yaw",
+        "description": "yank (copy) word under the cursor and the space after or before it"
+      },
+      {
+        "keyword": "y$",
+        "additional_keyword2": "Y",
+        "description": "yank (copy) to end of line"
+      },
+      {
+        "keyword": "p",
+        "description": "put (paste) the clipboard after cursor"
+      },
+      {
+        "keyword": "P",
+        "description": "put (paste) before cursor"
+      },
+      {
+        "keyword": "gp",
+        "description": "put (paste) the clipboard after cursor and leave cursor after the new text"
+      },
+      {
+        "keyword": "gP",
+        "description": "put (paste) before cursor and leave cursor after the new text"
+      },
+      {
+        "keyword": "dd",
+        "description": "delete (cut) a line"
+      },
+      {
+        "keyword": "2dd",
+        "description": "delete (cut) 2 lines"
+      },
+      {
+        "keyword": "dw",
+        "description": "delete (cut) the characters of the word from the cursor position to the start of the next word"
+      },
+      {
+        "keyword": "diw",
+        "description": "delete (cut) word under the cursor"
+      },
+      {
+        "keyword": "daw",
+        "description": "delete (cut) word under the cursor and the space after or before it"
+      },
+      {
+        "keyword": "d$",
+        "additional_keyword2": "D",
+        "description": "delete (cut) to the end of the line"
+      },
+      {
+        "keyword": "x",
+        "description": "delete (cut) character"
+      },
+      {
+        "keyword": ":3,5d",
+        "description": "delete lines starting from 3 to 5"
+      },
+      {
+        "keyword": ":g/{pattern}/d",
+        "description": "delete all lines containing pattern"
+      },
+      {
+        "keyword": ":g!/{pattern}/d",
+        "description": "delete all lines not containing pattern"
+      },
+      {
+        "keyword": ":.,$d",
+        "description": "From the current line to the end of the file"
+      },
+      {
+        "keyword": ":.,1d",
+        "description": "From the current line to the beginning of the file"
+      },
+      {
+        "keyword": ":10,$d",
+        "description": "From the 10th line to the end of the file"
+      }
+    ]
+  },
+  "indentText": {
+    "title": "Indent text",
+    "htmlId": "indent-text",
+    "commands": [
+      {
+        "keyword": ">>",
+        "description": "indent (move right) line one shiftwidth"
+      },
+      {
+        "keyword": "<<",
+        "description": "de-indent (move left) line one shiftwidth"
+      },
+      {
+        "keyword": ">%",
+        "description": "indent a block with () or {} (cursor on brace)"
+      },
+      {
+        "keyword": "<%",
+        "description": "de-indent a block with () or {} (cursor on brace)"
+      },
+      {
+        "keyword": ">ib",
+        "description": "indent inner block with ()"
+      },
+      {
+        "keyword": ">at",
+        "description": "indent a block with <> tags"
+      },
+      {
+        "keyword": "3==",
+        "description": "re-indent 3 lines"
+      },
+      {
+        "keyword": "=%",
+        "description": "re-indent a block with () or {} (cursor on brace)"
+      },
+      {
+        "keyword": "=iB",
+        "description": "re-indent inner block with {}"
+      },
+      {
+        "keyword": "gg=G",
+        "description": "re-indent entire buffer"
+      },
+      {
+        "keyword": "]p",
+        "description": "paste and adjust indent to current line"
+      }
+    ]
+  },
+  "exiting": {
+    "title": "Exiting",
+    "htmlId": "exiting",
+    "commands": [
+      {
+        "keyword": ":w",
+        "description": "write (save) the file but don't exit"
+      },
+      {
+        "keyword": ":w !sudo tee %",
+        "description": "write out the current file using sudo"
+      },
+      {
+        "keyword": ":wq",
+        "additional_keyword2": ":x",
+        "additional_keyword3": "ZZ",
+        "description": "write (save) and quit"
+      },
+      {
+        "keyword": ":q",
+        "description": "quit (fails if there are unsaved changes)"
+      },
+      {
+        "keyword": ":q!",
+        "description": "quit and throw away unsaved changes"
+      },
+      {
+        "keyword": ":wqa",
+        "description": "write (save) and quit on all tabs"
+      }
+    ]
+  },
+  "searchAndReplace": {
+    "title": "Search and replace",
+    "htmlId": "search-and-replace",
+    "commands": [
+      {
+        "keyword": "/pattern",
+        "description": "search for pattern"
+      },
+      {
+        "keyword": "?pattern",
+        "description": "search backward for pattern"
+      },
+      {
+        "keyword": "\\vpattern",
+        "description": "'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)"
+      },
+      {
+        "keyword": "n",
+        "description": "repeat search in same direction"
+      },
+      {
+        "keyword": "N",
+        "description": "repeat search in opposite direction"
+      },
+      {
+        "keyword": ":%s/old/new/g",
+        "description": "replace all old with new throughout file"
+      },
+      {
+        "keyword": ":%s/old/new/gc",
+        "description": "replace all old with new throughout file with confirmations"
+      },
+      {
+        "keyword": ":noh[lsearch]",
+        "description": "remove highlighting of search matches"
+      }
+    ]
+  },
+  "searchMultipleFiles": {
+    "title": "Search in multiple files",
+    "htmlId": "search-multiple-files",
+    "commands": [
+      {
+        "keyword": ":vim[grep] / pattern/ {`{file}`}",
+        "description": "search for pattern in multiple files"
+      },
+      {
+        "keyword": ":cn[ext]",
+        "description": "jump to the next match"
+      },
+      {
+        "keyword": ":cp[revious]",
+        "description": "jump to the previous match"
+      },
+      {
+        "keyword": ":cope[n]",
+        "description": "open a window containing the list of matches"
+      },
+      {
+        "keyword": ":ccl[ose]",
+        "description": "close the quickfix window"
+      }
+    ],
+    "tip": ":vim[grep] /foo/ **/*"
+  },
+  "workingWithMultipleFiles": {
+    "title": "Working with multiple files",
+    "htmlId": "working-multiple-files",
+    "commands": [
+      {
+        "keyword": ":e[dit] file",
+        "description": "edit a file in a new buffer"
+      },
+      {
+        "keyword": ":bn[ext]",
+        "description": "go to the next buffer"
+      },
+      {
+        "keyword": ":bp[revious]",
+        "description": "go to the previous buffer"
+      },
+      {
+        "keyword": ":bd[elete]",
+        "description": "delete a buffer (close a file)"
+      },
+      {
+        "keyword": ":b[uffer]#",
+        "description": "go to a buffer by index #"
+      },
+      {
+        "keyword": ":b[uffer] file",
+        "description": "go to a buffer by file"
+      },
+      {
+        "keyword": ":ls",
+        "additional_keyword2": ":buffers",
+        "description": "list all open buffers"
+      },
+      {
+        "keyword": ":sp[lit] file",
+        "description": "open a file in a new buffer and split window"
+      },
+      {
+        "keyword": ":vs[plit] file",
+        "description": "open a file in a new buffer and vertically split window"
+      },
+      {
+        "keyword": ":vert[ical] ba[ll]",
+        "description": "edit all buffers as vertical windows"
+      },
+      {
+        "keyword": ":tab ba[ll]",
+        "description": "edit all buffers as tabs"
+      },
+      {
+        "keyword": "<C-ws>",
+        "description": "split window"
+      },
+      {
+        "keyword": "<C-wv>",
+        "description": "split window vertically"
+      },
+      {
+        "keyword": "<C-ww>",
+        "description": "switch windows"
+      },
+      {
+        "keyword": "<C-wq>",
+        "description": "quit a window"
+      },
+      {
+        "keyword": "<C-wx>",
+        "description": "exchange current window with next one"
+      },
+      {
+        "keyword": "<C-w=>",
+        "description": "make all windows equal height & width"
+      },
+      {
+        "keyword": "<C-wh>",
+        "description": "move cursor to the left window (vertical split)"
+      },
+      {
+        "keyword": "<C-wl>",
+        "description": "move cursor to the right window (vertical split)"
+      },
+      {
+        "keyword": "<C-wj>",
+        "description": "move cursor to the window below (horizontal split)"
+      },
+      {
+        "keyword": "<C-wk>",
+        "description": "move cursor to the window above (horizontal split)"
+      },
+      {
+        "keyword": "<C-wH>",
+        "description": "make current window full height at far left (leftmost vertical window)"
+      },
+      {
+        "keyword": "<C-wL>",
+        "description": "make current window full height at far right (rightmost vertical window)"
+      },
+      {
+        "keyword": "<C-wJ>",
+        "description": "make current window full width at the very bottom (bottommost horizontal window)"
+      },
+      {
+        "keyword": "<C-wK>",
+        "description": "make current window full width at the very top (topmost horizontal window)"
+      }
+    ]
+  },
+  "tabs": {
+    "title": "Tabs",
+    "htmlId": "tabs",
+    "commands": [
+      {
+        "keyword": ":tabnew",
+        "additional_keyword2": ":tabnew {page.words.file}",
+        "description": "open a file in a new tab"
+      },
+      {
+        "keyword": "<C-wT>",
+        "description": "move the current split window into its own tab"
+      },
+      {
+        "keyword": "gt",
+        "additional_keyword2": ":tabn[ext]",
+        "description": "move to the next tab"
+      },
+      {
+        "keyword": "gT",
+        "additional_keyword2": ":tabp[revious]",
+        "description": "move to the previous tab"
+      },
+      {
+        "keyword": "#gt",
+        "description": "move to tab number #"
+      },
+      {
+        "keyword": ":tabm[ove] #",
+        "description": "move current tab to the #th position (indexed from 0)"
+      },
+      {
+        "keyword": ":tabc[lose]",
+        "description": "close the current tab and all its windows"
+      },
+      {
+        "keyword": ":tabo[nly]",
+        "description": "close all tabs except for the current one"
+      },
+      {
+        "keyword": ":tabdo",
+        "description": "run the <code>command</code> on all tabs (e.g. <code>:tabdo q</code> - closes all opened tabs)"
+      }
+    ]
+  },
+  "diff": {
+    "title": "Diff",
+    "htmlId": "diff",
+    "commands": [
+      {
+        "keyword": "zf",
+        "description": "manually define a fold up to motion"
+      },
+      {
+        "keyword": "zd",
+        "description": "delete fold under the cursor"
+      },
+      {
+        "keyword": "za",
+        "description": "toggle fold under the cursor"
+      },
+      {
+        "keyword": "zo",
+        "description": "open fold under the cursor"
+      },
+      {
+        "keyword": "zc",
+        "description": "close fold under the cursor"
+      },
+      {
+        "keyword": "zr",
+        "description": "reduce (open) all folds by one level"
+      },
+      {
+        "keyword": "zm",
+        "description": "fold more (close) all folds by one level"
+      },
+      {
+        "keyword": "zi",
+        "description": "toggle folding functionality"
+      },
+      {
+        "keyword": "]c",
+        "description": "jump to start of next change"
+      },
+      {
+        "keyword": "[c",
+        "description": "jump to start of previous change"
+      },
+      {
+        "keyword": "do",
+        "description": "obtain (get) difference (from other buffer)"
+      },
+      {
+        "keyword": "dp",
+        "description": "put difference (to other buffer)"
+      },
+      {
+        "keyword": ":diffthis",
+        "description": "make current window part of diff"
+      },
+      {
+        "keyword": ":dif[fupdate]",
+        "description": "update differences"
+      },
+      {
+        "keyword": ":diffo[ff]",
+        "description": "switch off diff mode for current window"
+      }
+    ],
+    "tip": "The commands for folding (e.g. <kbd>za</kbd>) operate on one level. To operate on all levels, use uppercase letters (e.g. <kbd>zA</kbd>).",
+    "tip2": "To view the differences of files, one can directly start Vim in diff mode by running <kbd>vimdiff</kbd> in a terminal. One can even set this as <kbd>git difftool</kbd>."
+  },
+  "languages": {
+    "title": "Languages"
+  },
+  "footer": "Checkout the source on"
+}
