@@ -1,6 +1,13 @@
+:root {
+  --obsidian: #0b1215;
+  --snow: #fffafa;
+  --alice-blue: #f0f8ff;
+  --oil: #0c0c0c;
+}
+
 html {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -13,6 +20,13 @@ html {
   margin: 0;
 }
 
+body {
+  background-color: var(--snow);
+  /* snow background */
+  color: var(--obsidian);
+  /* obsidian text */
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -21,6 +35,10 @@ main {
 
 vocab-element {
   flex: auto;
+  background-color: var(--alice-blue);
+  /* alice blue background */
+  color: var(--oil);
+  /* oil text */
 }
 
 span {
@@ -28,7 +46,7 @@ span {
 }
 
 li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 5px;
@@ -48,13 +66,15 @@ li {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    /* Dark background */
-    color: #e0e0e0;
-    /* Light text */
+    background-color: var(--obsidian);
+    /* obsidian background */
+    color: var(--snow);
+    /* snow text */
   }
   vocab-element {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--oil);
+    /* oil background */
+    color: var(--alice-blue);
+    /* alice blue text */
   }
 }
