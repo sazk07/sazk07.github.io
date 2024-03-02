@@ -64,6 +64,8 @@ const main = async () => {
       const concatEtym = `<mark>${mark}</mark>: <span>${etym}</span>`;
       createLi("etym", concatEtym, vocabElement);
     }
+
+    // close previous details element if new vocab element clicked
     vocabElement.addEventListener("click", () => {
       const allVocabs = document.querySelectorAll("vocab-element");
       for (const vocab of allVocabs) {
