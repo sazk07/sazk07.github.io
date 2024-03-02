@@ -1,14 +1,33 @@
+:root {
+  --obsidian: #0b1215;
+  --snow: #fffafa;
+  --alice-blue: #f0f8ff;
+  --oil: #0c0c0c;
+  --charcoal-gray: #171717;
+  --gainsboro: #f1eff2;
+}
+
 html {
   box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
   margin: 0;
+}
+
+body {
+  background-color: var(--snow);
+  color: var(--oil);
+}
+
+h1, h2 {
+  color: var(--obsidian);
 }
 
 h1 {
@@ -46,8 +65,8 @@ li {
 }
 
 kbd {
-  background-color: #eee;
-  color: #000;
+  background-color: var(--gainsboro);
+  color: var(--oil);
   font-family: monospace;
   font-size: 1.15em;
   font-weight: bold;
@@ -55,7 +74,7 @@ kbd {
 }
 
 .well {
-  background: #f8f8f8;
+  background: var(--alice-blue);
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   padding: 19px;
@@ -82,7 +101,7 @@ a:hover {
   }
 
   .flex-child {
-    border: 5px solid black;
+    border: 5px solid var(--obsidian);
     border-radius: 10px;
     flex: 1 1 20%;
   }
@@ -107,15 +126,15 @@ a:hover {
 /* Dark */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
-    /* Dark background */
-    color: #e0e0e0;
-    /* Light text */
+    background-color: var(--oil);
+    /* obsidian background */
+    color: var(--snow);
+    /* snow text */
   }
 
   h1,
   h2 {
-    color: #e6e6e6;
+    color: var(--snow);
   }
 
   a {
@@ -124,19 +143,17 @@ a:hover {
   }
 
   .well {
-    background: #1a1a1a;
+    background: var(--charcoal-gray);
     /* Darker backgrounds for containers */
-    border-color: #333333;
-    /* Dark borders */
   }
 
   kbd {
-    background: #282828;
-    color: #e6e6e6;
+    background: #333333;
+    color: var(--alice-blue);
   }
 
   li {
-    border-bottom: 1px dashed #2f2f2f;
+    border-bottom: 1px dashed var(--oil);
   }
 
   .flex-child {
