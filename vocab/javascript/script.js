@@ -64,6 +64,15 @@ const main = async () => {
       const concatEtym = `<mark>${mark}</mark>: <span>${etym}</span>`;
       createLi("etym", concatEtym, vocabElement);
     }
+    vocabElement.addEventListener("click", () => {
+      const allVocabs = document.querySelectorAll("vocab-element");
+      for (const vocab of allVocabs) {
+        const details = vocab.shadowRoot.querySelector("details");
+        if (details.getAttribute("open") === "") {
+          details.removeAttribute("open");
+        }
+      }
+    });
   }
 };
 main();
