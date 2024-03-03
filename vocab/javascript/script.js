@@ -46,23 +46,19 @@ const main = async () => {
     createSpan("vocab", word, vocabElement);
 
     // check if elem definition is in array form
-    if (Array.isArray(definition)) {
-      for (const def of definition) {
-        createLi("definition", def, vocabElement);
-      }
-    } else {
-      createLi("definition", definition, vocabElement);
+    const definitions = Array.isArray(definition) ? definition : [definition];
+    for (const def of definitions) {
+      createLi("definition", def, vocabElement);
     }
 
     // check if elem mark is in array form
-    if (Array.isArray(mark)) {
-      mark.forEach((mark, index) => {
-        const concatEtym = `<mark>${mark}</mark>: <span>${etym[index]}</span>`;
+    if (mark) {
+      const marks = Array.isArray(mark) ? mark : [mark];
+      marks?.forEach((mark, index) => {
+        const currentEtym = Array.isArray(etym) ? etym[index] : etym;
+        const concatEtym = `<mark>${mark}</mark>: <span>${currentEtym}</span>`;
         createLi("etym", concatEtym, vocabElement);
       });
-    } else if (mark) {
-      const concatEtym = `<mark>${mark}</mark>: <span>${etym}</span>`;
-      createLi("etym", concatEtym, vocabElement);
     }
 
     // close previous details element if new vocab element clicked
