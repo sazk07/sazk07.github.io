@@ -84,6 +84,8 @@ kbd {
 
 footer {
   text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 a {
