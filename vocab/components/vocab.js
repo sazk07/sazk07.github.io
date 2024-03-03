@@ -1,3 +1,5 @@
+"use strict";
+
 class VocabularyComponent extends HTMLElement {
   constructor() {
     super();
