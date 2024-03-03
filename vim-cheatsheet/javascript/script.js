@@ -67,7 +67,7 @@ const main = async () => {
     const p = document.createElement("p");
     p.textContent = data.message;
     document.body.appendChild(p);
-    return
+    return;
   }
 
   // get relevant custom components
