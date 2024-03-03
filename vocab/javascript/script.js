@@ -62,12 +62,14 @@ const main = async () => {
     }
 
     // close previous details element if new vocab element clicked
-    vocabElement.addEventListener("click", () => {
+    vocabElement.addEventListener("click", (e) => {
       const allVocabs = document.querySelectorAll("vocab-element");
       for (const vocab of allVocabs) {
-        const details = vocab.shadowRoot.querySelector("details");
-        if (details.getAttribute("open") === "") {
-          details.removeAttribute("open");
+        if (vocab !== e.currentTarget) {
+          const details = vocab.shadowRoot.querySelector("details");
+          if (details.open) {
+            details.removeAttribute("open");
+          }
         }
       }
     });
