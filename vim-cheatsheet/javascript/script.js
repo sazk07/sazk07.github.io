@@ -96,7 +96,7 @@ const main = async () => {
   const anchor = document.createElement("a");
   anchor.setAttribute(
     "href",
-    "https://github.com/sazk07/sazk07.github.io/vim-cheatsheet",
+    "https://github.com/sazk07/vim-cheatsheet-web-components",
   );
   anchor.textContent = "GitHub";
   footer.textContent = `${data.footer} `;
