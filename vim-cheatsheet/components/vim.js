@@ -1,3 +1,5 @@
+"use strict";
+
 class VimComponent extends HTMLElement {
   constructor() {
     super();
