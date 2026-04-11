@@ -1090,6 +1090,14 @@
         "description": "toggle folding functionality"
       },
       {
+        "keyword": ":mkview",
+        "description": "save current folds settings"
+      },
+      {
+        "keyword": ":loadview",
+        "description": "load folds settings"
+      },
+      {
         "keyword": "]c",
         "description": "jump to start of next change"
       },
